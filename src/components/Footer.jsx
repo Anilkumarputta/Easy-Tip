@@ -2,9 +2,13 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='text-center mb-2 text-grayish-cyan' >
-        <p>&copy; Beatriz Neaime - 2023</p>
-    </div>
+    <footer className='text-center mb-4 text-grayish-cyan'>
+      <p className='mb-1'>&copy; Anil Kumar - 2026</p>
+      <p className='mb-1'>
+        <a href="http://linkedin.com/in/anil-putta" target="_blank" rel="noreferrer" className='underline mr-3'>LinkedIn</a>
+        <a href="/LICENSE" className='underline'>License</a>
+      </p>
+    </footer>
   )
 }
 

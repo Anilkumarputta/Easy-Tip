@@ -19,13 +19,13 @@ const Display = () => {
         window.location.reload()
     }
     return (
-        <div className="bg-dark-cyan rounded-2xl flex flex-col p-10 md:w-[50%] gap-14" >
+        <div className="bg-white dark:bg-dark-cyan dark:text-white rounded-2xl flex flex-col p-10 md:w-[50%] gap-14 shadow-md">
             <div className="flex flex-col gap-3 md:h-[55%] md:w-full align-middle justify-evenly">
                 <Info title="Tip Amount" value={amount} />
                 <Info title="Total" value={total} />
             </div>
             <div className="flex align-middle justify-center md:h-25%">
-                <button className='bg-strong-cyan hover:bg-light-grayish-cyan rounded-md h-[3rem] mt-[1rem] text-dark-cyan w-[90%]' onClick={setZero} >
+                <button className='bg-strong-cyan hover:bg-strong-cyan/90 rounded-md h-[3rem] mt-[1rem] text-white w-[90%] focus:outline-none focus:ring-2 focus:ring-strong-cyan' onClick={setZero} >
                     RESET
                 </button>
             </div>

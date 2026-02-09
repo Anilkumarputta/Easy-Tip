@@ -1,6 +1,6 @@
-# Frontend Mentor - Tip calculator app solution
+# EasyTip - Tip calculator app solution
 
-This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the Tip calculator app. Built and maintained by Anil Kumar.
 
 ## Table of contents
 
@@ -29,6 +29,13 @@ Users should be able to:
 ![](./src/assets/screenshots/smartphones.png)
 How the app behaves when open in a smartphone
 
+### Demo
+
+Here is a short demo of the app usage (placeholder). Replace with an animated GIF or short screen recording to show tips and split flow.
+
+![](./src/assets/screenshots/smartphones.png)
+Demo: enter a bill amount, set tip percentage, and split the bill between people.
+
 
 ![](./src/assets/screenshots/tablet.png)
 How the app behaves when open in a tablet
@@ -39,7 +46,7 @@ How the app behaves when open in a desktop
 
 ### Links
 
-- Solution URL: [Github](https://www.linkedin.com/in/beatriz-neaime-1564b51b1/)
+- Solution URL: [LinkedIn](http://linkedin.com/in/anil-putta)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 ## My process
 
@@ -61,9 +68,8 @@ From now on I know a better way to deal with projects that demands the use of sh
 
 ## Author
 
-- Website - [BeatrizNeaime](https://beatrizneaime.vercel.app)
-- Frontend Mentor - [@BeatrizNeaime](https://www.frontendmentor.io/profile/BeatrizNeaime)
-- Linkedin -  [Beatriz Neaime](https://www.linkedin.com/in/beatriz-neaime-1564b51b1/)
+- Name: Anil Kumar
+- Profile: [LinkedIn](http://linkedin.com/in/anil-putta)
 
 ## Acknowledgments
 
