@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img src="./public/logo.svg" alt="EasyTip Logo" width="120" height="120" />
+</p>
+
 # EasyTip
 
 A modern, responsive tip calculator and bill splitter for web. Instantly calculate tips, split bills, and share payment details with a beautiful UI. Built with React and Tailwind CSS.

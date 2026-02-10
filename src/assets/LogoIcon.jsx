@@ -1,0 +1,25 @@
+import React from "react";
+
+const LogoIcon = (props) => (
+  <svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <defs>
+      <linearGradient id="bg" x1="25" y1="20" x2="195" y2="200" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#B16CFF"/>
+        <stop offset="1" stopColor="#521E9A"/>
+      </linearGradient>
+      <linearGradient id="coin" x1="68" y1="68" x2="152" y2="152" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#F9FAFF"/>
+        <stop offset="1" stopColor="#D4CCFF"/>
+      </linearGradient>
+    </defs>
+    <rect x="18" y="18" width="184" height="184" rx="46" fill="url(#bg)"/>
+    <rect x="34" y="34" width="152" height="152" rx="34" stroke="white" strokeOpacity="0.2" strokeWidth="4"/>
+    <circle cx="110" cy="102" r="44" fill="url(#coin)"/>
+    <path d="M110 72V132M94 86.5C94 81 98.8 76.5 106.7 76.5H115.3C123.2 76.5 128 81 128 86.5C128 92 123.2 96.5 115.3 96.5H104.7C96.8 96.5 92 101 92 106.5C92 112 96.8 116.5 104.7 116.5H113.3C121.2 116.5 126 112 126 106.5" stroke="#521E9A" strokeWidth="8" strokeLinecap="round"/>
+    <path d="M58 154C69.5 144.5 88.2 139 109.9 139C131.7 139 150.5 144.5 162 154" stroke="white" strokeOpacity="0.55" strokeWidth="7" strokeLinecap="round"/>
+    <circle cx="70" cy="154" r="6" fill="#FFFFFF" fillOpacity="0.75"/>
+    <circle cx="150" cy="154" r="6" fill="#FFFFFF" fillOpacity="0.75"/>
+  </svg>
+);
+
+export default LogoIcon;

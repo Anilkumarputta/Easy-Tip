@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import logoMark from './assets/img/easytip-logo.svg';
+import LogoIcon from './assets/LogoIcon';
 import Card from './components/Card';
 import Footer from './components/Footer';
 import Contexts from './contexts/Contexts';
@@ -124,7 +124,7 @@ function App() {
           <header className="w-full rounded-2xl border border-white/20 bg-white/10 px-4 py-4 backdrop-blur-md sm:px-6">
             <div className="flex flex-col items-center justify-between gap-3 sm:flex-row">
               <div className="flex items-center gap-3">
-                <img src={logoMark} alt="EasyTip logo" className="h-12 w-12 rounded-2xl bg-white/10 p-1 shadow-lg" />
+                <LogoIcon className="h-12 w-12 rounded-2xl bg-white/10 p-1 shadow-lg" aria-label="EasyTip logo" />
                 <div>
                   <p className="text-[10px] uppercase tracking-[0.28em] text-white/70 sm:text-xs">Smart Tip Calculator</p>
                   <h1 className="text-2xl font-bold text-white sm:text-3xl">EasyTip</h1>
@@ -140,7 +140,7 @@ function App() {
             <Card />
           </main>
 
-          <Footer logo={logoMark} />
+          <Footer />
         </div>
       </div>
     </Contexts.Provider>

@@ -1,11 +1,13 @@
 import React from 'react'
 
-const Footer = ({ logo }) => {
+import LogoIcon from '../assets/LogoIcon';
+
+const Footer = () => {
   return (
     <footer className="w-full rounded-2xl border border-white/20 bg-white/10 px-4 py-4 text-white/90 backdrop-blur-md sm:px-6">
       <div className="flex flex-col items-center justify-between gap-3 sm:flex-row">
         <div className="flex items-center gap-3">
-          <img src={logo} alt="EasyTip mark" className="h-9 w-9 rounded-xl bg-white/10 p-1" />
+          <LogoIcon className="h-9 w-9 rounded-xl bg-white/10 p-1" aria-label="EasyTip mark" />
           <div>
             <p className="text-sm font-semibold">EasyTip</p>
             <p className="text-xs text-white/70">Designing simple, modern bill splitting experiences.</p>
