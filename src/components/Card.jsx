@@ -3,7 +3,7 @@ import Form from "./Form"
 
 const Card = () => {
   return (
-    <div className="bg-light-cyan dark:bg-dark-cyan dark:text-white md:w-[65%] md:flex md:gap-5 rounded-3xl p-[1.5rem] w-full my-[1.5rem]">
+    <div className="flex flex-col md:flex-row md:gap-8 gap-4 w-full items-center justify-center">
       <Form />
       <Display />
     </div>
