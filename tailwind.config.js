@@ -5,12 +5,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "strong-cyan": "hsl(172, 72%, 30%)", // darker for higher contrast with white text
-        "dark-cyan": "hsl(183, 90%, 12%)", // darker for high contrast in dark mode
-        "grayish-cyan": "hsl(184, 12%, 34%)", // darker for readable headings on light bg
-        "light-grayish-cyan": "hsl(185, 36%, 82%)", // improve contrast against white
-        "light-cyan": "hsl(189, 50%, 96%)", // keep near-white but slightly toned
-        white: "hsl(0, 0%, 100%)" 
+        "strong-purple": "hsl(271, 81%, 56%)", // vibrant purple for buttons
+        "dark-purple": "hsl(271, 91%, 12%)", // dark purple for dark mode
+        "grayish-purple": "hsl(272, 12%, 34%)", // muted purple-gray
+        "light-purple": "hsl(270, 50%, 96%)", // light purple background
+        white: "hsl(0, 0%, 100%)"
       },
       fontFamily: {
         space: ["Space Mono", "monospace"]

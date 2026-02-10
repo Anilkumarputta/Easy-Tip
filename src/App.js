@@ -18,9 +18,9 @@ function App() {
   return (
     <>
       <Contexts.Provider value={{ amount, setAmount, people, setpeople, tip, setTip, bill, setBill, total, settotal}}>
-        <div className="w-screen h-screen overflow-hidden flex flex-col bg-light-cyan dark:bg-dark-cyan">
+        <div className="w-screen h-screen overflow-hidden flex flex-col bg-light-purple dark:bg-dark-purple">
           <header className="w-full flex items-center py-4 px-4 justify-center">
-            <span className="text-2xl font-bold text-dark-cyan bg-light-cyan rounded-lg px-4 py-2 shadow-sm">Easy Bill</span>
+            <span className="text-2xl font-bold text-dark-purple bg-light-purple rounded-lg px-4 py-2 shadow-sm">Easy Bill</span>
           </header>
           <main className="flex-1 flex items-center justify-center w-full">
             <div className="flex justify-center items-center w-full h-full">

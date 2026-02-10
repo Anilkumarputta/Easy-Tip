@@ -25,7 +25,7 @@ const Display = () => {
                 <Info title="Total" value={total} />
             </div>
             <div className="flex align-middle justify-center md:h-25%">
-                <button className='bg-strong-cyan hover:bg-strong-cyan/90 rounded-md h-[3rem] mt-[1rem] text-white w-[90%] focus:outline-none focus:ring-2 focus:ring-strong-cyan' onClick={setZero} >
+                <button className='bg-strong-purple hover:bg-strong-purple/90 rounded-md h-[3rem] mt-[1rem] text-white w-[90%] focus:outline-none focus:ring-2 focus:ring-strong-purple' onClick={setZero} >
                     RESET
                 </button>
             </div>
