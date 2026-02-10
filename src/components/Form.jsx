@@ -38,7 +38,7 @@ const Form = () => {
             <Subtitle text="Bill" />
             <div className="relative">
                 <i><img src={dolar} alt="dolar symbol" className="absolute p-3" /></i>
-                <input type="number" className={`p-3 h-[2.8rem] w-full bg-light-grayish-cyan dark:bg-dark-cyan dark:text-white rounded-md focus:outline-none focus:ring-2 focus:ring-strong-cyan text-right text-[24px] placeholder:text-gray-400 dark:placeholder:text-gray-300`} placeholder="0" onChange={handleBill} />
+                <input type="number" className={`p-3 h-[2.8rem] w-full bg-light-grayish-cyan dark:bg-dark-cyan dark:text-white rounded-md border border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-strong-purple text-right text-[24px] placeholder:text-gray-400 dark:placeholder:text-gray-300`} placeholder="0" onChange={handleBill} />
             </div>
             <Subtitle text="Select Tip %" />
             <div className="flex flex-row flex-wrap justify-center items-center gap-2 mt-2 mb-2">
@@ -47,12 +47,12 @@ const Form = () => {
                 <TipBtn tipvalue={15} />
                 <TipBtn tipvalue={25} />
                 <TipBtn tipvalue={50} />
-                <input type="number" className="p-2 w-16 h-8 bg-light-grayish-cyan dark:bg-dark-cyan dark:text-white rounded-md focus:outline-none focus:ring-2 focus:ring-strong-cyan text-right text-[16px] placeholder:text-gray-400 dark:placeholder:text-gray-300 ml-2" placeholder="CUSTOM" onChange={(e) => setTip(e.target.value)} />
+                <input type="number" className="p-2 w-16 h-8 bg-light-grayish-cyan dark:bg-dark-cyan dark:text-white rounded-md border border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-strong-purple text-right text-[16px] placeholder:text-gray-400 dark:placeholder:text-gray-300 ml-2" placeholder="CUSTOM" onChange={(e) => setTip(e.target.value)} />
             </div>
             <Subtitle text="Number of People" />
             <div className="relative">
                 <i><img src={person} alt="dolar symbol" className="absolute p-3" /></i>
-                <input type="number" className={`p-3 h-[2.8rem] w-full bg-light-grayish-cyan dark:bg-dark-cyan dark:text-white rounded-md focus:outline-none focus:ring-2 focus:ring-strong-cyan text-right text-[24px] placeholder:text-gray-400 dark:placeholder:text-gray-300`} placeholder="0" onChange={setValues} />
+                <input type="number" className={`p-3 h-[2.8rem] w-full bg-light-grayish-cyan dark:bg-dark-cyan dark:text-white rounded-md border border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-strong-purple text-right text-[24px] placeholder:text-gray-400 dark:placeholder:text-gray-300`} placeholder="0" onChange={setValues} />
             </div>
         </div>
     )
