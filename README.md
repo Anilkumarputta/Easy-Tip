@@ -17,16 +17,14 @@ A modern, responsive tip calculator and bill splitter for web. Instantly calcula
 
 ## 📸 Screenshots
 
-### Mobile  
-[![Mobile screenshot](assets/screenshots/mobile-full.jpg)
+### Mobile
+<img src="https://github.com/user-attachments/assets/086bf90b-1750-48c8-92c1-ea6038b55d86?raw=true" alt="Mobile screenshot" width="400" style="max-width:100%;height:auto" />
 
-### Tablet  
-[![Tablet screenshot](assets/screenshots/tablet-1000.jpg)](assets/screenshots/tablet-full.jpg)
+### Tablet
+<img src="https://github.com/user-attachments/assets/18eb9799-89eb-469d-b4cd-6dbe1e844085?raw=true" alt="Tablet screenshot" width="700" style="max-width:100%;height:auto" />
 
-### Desktop  
-[![Desktop screenshot](assets/screenshots/desktop-1200.jpg)](assets/screenshots/desktop-full.jpg)
-
-
+### Desktop
+<img src="https://github.com/user-attachments/assets/9c6cdfb3-ece0-492b-81ca-955e3ecc7534?raw=true" alt="Desktop screenshot" width="1000" style="max-width:100%;height:auto" />
 ---
 
 ## ✨ Features
