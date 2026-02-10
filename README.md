@@ -1,6 +1,3 @@
-# Easy-Tip
-EasyTip — fast tip + split calculator
-
 # EasyTip - Tip calculator app solution
 
 This is a solution to the Tip calculator app. Built and maintained by Anil Kumar.
