@@ -13,7 +13,7 @@ A modern, responsive tip calculator and bill splitter for web. Instantly calcula
 ## 📸 Screenshots
 
 ### Mobile  
-[![Mobile screenshot](assets/screenshots/mobile-800.jpg)](assets/screenshots/mobile-full.jpg)
+[![Mobile screenshot](assets/screenshots/mobile-full.jpg)
 
 ### Tablet  
 [![Tablet screenshot](assets/screenshots/tablet-1000.jpg)](assets/screenshots/tablet-full.jpg)
