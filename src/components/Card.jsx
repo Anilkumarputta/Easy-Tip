@@ -3,11 +3,11 @@ import Form from "./Form"
 
 const Card = () => {
   return (
-    <div className="flex flex-col md:flex-row md:gap-8 gap-4 w-full items-center justify-center">
+    <div className="flex w-full flex-col items-stretch gap-6 md:flex-row md:gap-8">
       <Form />
       <Display />
     </div>
-  )
-}
+  );
+};
 
 export default Card

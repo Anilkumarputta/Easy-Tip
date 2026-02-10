@@ -1,15 +1,8 @@
-import Card from './components/Card';
-import Contexts from './contexts/Contexts'
-// ...existing code...
-
-import { useState } from 'react'
 import { useEffect, useMemo, useState } from 'react';
-
 import logoMark from './assets/img/easytip-logo.svg';
 import Card from './components/Card';
 import Footer from './components/Footer';
 import Contexts from './contexts/Contexts';
-  const [tip, setTip] = useState(0);
 const STORAGE_KEY = 'easy-tip-preferences-v1';
 
 const profileDefaults = {
