@@ -24,7 +24,7 @@ function App() {
           </header>
           <main className="flex-1 flex items-center justify-center w-full">
             <div className="flex justify-center items-center w-full h-full">
-              <div className="bg-white dark:bg-dark-cyan p-8 rounded-3xl shadow-lg w-full max-w-2xl flex flex-col items-center">
+              <div className="bg-white dark:bg-dark-cyan p-8 rounded-3xl shadow-lg w-full max-w-4xl flex flex-col items-center">
                 <Card />
               </div>
             </div>
